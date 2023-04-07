@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  text-align: center;
+}
+
+.select-section {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.select-container {
+  display: flex;
+  gap: 10px;
+}
+
+.select-container label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+select {
+  width: 200px;
+  height: 25px;
+}
+
+button {
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.result-container {
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
